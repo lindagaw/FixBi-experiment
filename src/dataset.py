@@ -3,6 +3,7 @@ import torchvision.transforms as transforms
 
 
 def get_dataset(dataset_name, path='//database'):
+    print('loading the office-31 dataset')
     if dataset_name in ['amazon', 'dslr', 'webcam']:  # OFFICE-31
         data_transforms = {
             'train': transforms.Compose([
