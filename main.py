@@ -20,7 +20,7 @@ parser.add_argument('-save_path', help='save path', type=str, default='Logs/save
 parser.add_argument('-source', help='source', type=str, default='amazon')
 parser.add_argument('-target', help='target', type=str, default='dslr')
 parser.add_argument('-workers', default=4, type=int, help='dataloader workers')
-parser.add_argument('-gpu', help='gpu number', type=str, default='0,1')
+parser.add_argument('-gpu', help='gpu number', type=str, default='0,1,2,3')
 parser.add_argument('-epochs', default=100, type=int)
 parser.add_argument('-batch_size', default=32, type=int)
 parser.add_argument('-th', default=2.0, type=float, help='Threshold')
